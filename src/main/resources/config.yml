@@ -1,0 +1,32 @@
+# SleepSkip v1.0
+# Created by Primimity
+# Need a custom plugin? Discord me @primimity
+
+# You can adjust the percent of players that need to be in bed AND
+# adjust the time of day you wake up at! (default is 50%)
+
+settings:
+  percentRequired: 0.5
+  timeOfDay: 1000
+  sleepDelay: 5   # set 0 to completely skip sleep!
+
+messages:
+  progress: "&f{sleeping}/{total} players sleeping"
+  skipped: "&fSleeping through this night"
+
+# You can use color codes (or formatting codes) by using the & symbol!
+
+# Also, here are some neat tricks you can use to customize the messages:
+#   {sleeping} = Amount of players currently in bed
+#   {needed} = Amount of players needed to skip the night
+#   {total} = Amount of total players eligible to sleep (in the overworld)
+
+
+# !!! TEMPLATES !!!
+
+# Default: "&f{sleeping}/{total} players sleeping"
+#          "&fSleeping through this night"
+# Sleek:   "&f{needed} &7players need to sleep."
+#          "&7Skipping the night."
+# Fun:     "&b{sleeping}&e/&b{total} &eplayers in bed!"
+#          "&bSnoring away... &eZzz.."

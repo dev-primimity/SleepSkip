@@ -1,0 +1,9 @@
+main: me.primimity.sleepSkip.Main
+
+name: SleepSkip
+version: 1.0
+description: 'Skips the night when a set amount of players are in bed.'
+api-version: '1.21'
+
+author: Primimity
+website: https://discord.com/users/primimity
